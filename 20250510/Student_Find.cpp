@@ -12,8 +12,8 @@ void Student_Find::Update()
 {
 	system("cls");
 	string input;
-	cout << "Ã£À» ÇĞ»ıÀÇ ÀÌ¸§ : ";
-	cin >> input;			// ÀÌ¸§ »çÀÌ¿¡ ¶ç¾î¾²±â°¡ µé¾î°£ ÇĞ»ı¿ë
+	cout << "ì°¾ì„ í•™ìƒì˜ ì´ë¦„ : ";
+	cin >> input;			
 
 	//vector<INFO>::iterator it = dent.begin();
 
@@ -24,7 +24,7 @@ void Student_Find::Update()
 			return;
 		}
 	}
-	cout << "ÇĞ»ı ¾øÀ½" << endl;
+	cout << "í•™ìƒ ì—†ìŒ" << endl;
 	system("pause");
 }
 
